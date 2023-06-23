@@ -1,0 +1,195 @@
+.wraper {
+  width: 1440px;
+  position: relative;
+  margin: 0 auto;
+}
+body {
+  font-family: "Tomorrow", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.panel {
+  width: 30%;
+}
+.panel ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+li a {
+  color: black;
+  text-decoration: none;
+}
+.sneakers-hero {
+  background-image: url(./2.jpg);
+  text-align: center;
+  width: 100%;
+  height: 800px;
+}
+h2 {
+  position: absolute;
+  width: 941px;
+  height: 197px;
+  left: 100px;
+  top: 48px;
+
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 140%;
+  /* or 78px */
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: black;
+}
+.sneakers-image {
+  position: absolute;
+  width: 233px;
+  height: 55px;
+  left: 354px;
+  top: 165px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.one {
+  width: 815px;
+  height: 288px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.one img {
+  float: left;
+  margin-right: 50px;
+}
+.sneakers-two {
+  background-image: url(5.png);
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+h3 {
+  position: absolute;
+  width: 930px;
+  height: 351px;
+  left: 205px;
+  top: 1000x;
+  text-transform: uppercase;
+  color: azure;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 140%;
+}
+.sneakers-last {
+  float: left;
+  width: 815px;
+  height: 288px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.sneakers-last img {
+  float: left;
+  margin-right: 50px;
+}
+.last {
+  position: absolute;
+  width: 500px;
+  height: 164px;
+  left: 841px;
+  top: 2314px;
+
+  font-family: "Sintony";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 140%;
+  color: black;
+}
+p {
+  position: absolute;
+  width: 500px;
+  height: 114px;
+  left: 841px;
+  top: 2542px;
+
+  font-family: "Sintony";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+}
+@media screen and (max-width: 666px) {
+  .panel ul {
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    list-style-type: none;
+  }
+  .panel {
+    margin: 20px 0px;
+    display: block;
+  }
+  #about #shop #cart {
+    display: none;
+  }
+  .logo {
+    margin: 23px 0px 23px 0px;
+    display: block;
+  }
+  .cart {
+    display: block;
+    margin: 20px 0px;
+  }
+  .sneakers-hero {
+    background-image: url(./2.png);
+    background-size: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .sneakers-hero div {
+    display: flex;
+    flex-direction: column;
+  }
+  .sneakers-hero h2 {
+    position: relative;
+    text-align: center;
+  }
+  .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./5.png);
+    background-size: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .sneakers-two {
+    display: flex;
+    flex-direction: column;
+  }
+  .sneakers-two h3 {
+    position: relative;
+    text-align: center;
+  }
+  .sneakers-last {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
