@@ -173,6 +173,13 @@ p {
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 50px;
+
+
+    }
+  .one div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .sneakers-two {
     display: flex;
